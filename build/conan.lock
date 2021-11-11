@@ -1,0 +1,50 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "options": "Boost:fPIC=False\nBoost:header_only=False\nBoost:magic_autolink=False\nBoost:shared=True\nBoost:skip_lib_rename=True\nBoost:without_atomic=False\nBoost:without_chrono=False\nBoost:without_container=False\nBoost:without_context=False\nBoost:without_contract=False\nBoost:without_coroutine=False\nBoost:without_date_time=False\nBoost:without_exception=False\nBoost:without_fiber=True\nBoost:without_filesystem=False\nBoost:without_graph=False\nBoost:without_graph_parallel=False\nBoost:without_iostreams=False\nBoost:without_locale=False\nBoost:without_log=False\nBoost:without_math=False\nBoost:without_mpi=False\nBoost:without_program_options=False\nBoost:without_python=True\nBoost:without_random=False\nBoost:without_regex=False\nBoost:without_serialization=False\nBoost:without_stacktrace=False\nBoost:without_system=False\nBoost:without_test=False\nBoost:without_thread=False\nBoost:without_timer=False\nBoost:without_type_erasure=False\nBoost:without_wave=False\ngtest:build_gmock=True\ngtest:hide_symbols=False\ngtest:no_main=False\ngtest:shared=True\nopencv:shared=True\nopencv:with_aruco=True\nopencv:with_bgsegm=False\nopencv:with_bioinspired=False\nopencv:with_calib3d=True\nopencv:with_ccalib=False\nopencv:with_cuda=False\nopencv:with_dataset=False\nopencv:with_dnn=False\nopencv:with_dnn_objdetect=False\nopencv:with_dpm=False\nopencv:with_face=False\nopencv:with_features2d=True\nopencv:with_flann=True\nopencv:with_freetype=False\nopencv:with_fuzzy=False\nopencv:with_gtk=False\nopencv:with_hdf=False\nopencv:with_hfs=False\nopencv:with_highgui=True\nopencv:with_img_hash=False\nopencv:with_imgcodecs=True\nopencv:with_imgproc=True\nopencv:with_line_descriptor=False\nopencv:with_ml=True\nopencv:with_objectdetect=True\nopencv:with_opengl=False\nopencv:with_optflow=False\nopencv:with_phase_unwrapping=False\nopencv:with_photo=True\nopencv:with_plot=False\nopencv:with_python2=False\nopencv:with_python3=False\nopencv:with_qt=False\nopencv:with_reg=False\nopencv:with_rgbd=False\nopencv:with_saliency=False\nopencv:with_sfm=False\nopencv:with_shape=False\nopencv:with_stereo=False\nopencv:with_stitching=False\nopencv:with_structured_light=False\nopencv:with_superres=False\nopencv:with_surface_matching=False\nopencv:with_tbb=False\nopencv:with_text=False\nopencv:with_tracking=False\nopencv:with_ts=False\nopencv:with_video=True\nopencv:with_videoio=True\nopencv:with_videostab=True\nopencv:with_viz=False\nopencv:with_xfeatures2d=False\nopencv:with_ximgproc=False\nopencv:with_xobjdetect=False\nopencv:with_xphoto=False\nzlib:shared=True",
+    "requires": [
+     "1",
+     "2",
+     "4"
+    ],
+    "path": "../conanfile.txt",
+    "context": "host"
+   },
+   "1": {
+    "ref": "opencv/4.5.0@camposs/stable",
+    "options": "shared=True\nwith_aruco=True\nwith_bgsegm=False\nwith_bioinspired=False\nwith_calib3d=True\nwith_ccalib=False\nwith_cuda=False\nwith_dataset=False\nwith_dnn=False\nwith_dnn_objdetect=False\nwith_dpm=False\nwith_face=False\nwith_features2d=True\nwith_flann=True\nwith_freetype=False\nwith_fuzzy=False\nwith_gtk=False\nwith_hdf=False\nwith_hfs=False\nwith_highgui=True\nwith_img_hash=False\nwith_imgcodecs=True\nwith_imgproc=True\nwith_line_descriptor=False\nwith_ml=True\nwith_objectdetect=True\nwith_opengl=False\nwith_optflow=False\nwith_phase_unwrapping=False\nwith_photo=True\nwith_plot=False\nwith_python2=False\nwith_python3=False\nwith_qt=False\nwith_reg=False\nwith_rgbd=False\nwith_saliency=False\nwith_sfm=False\nwith_shape=False\nwith_stereo=False\nwith_stitching=False\nwith_structured_light=False\nwith_superres=False\nwith_surface_matching=False\nwith_tbb=False\nwith_text=False\nwith_tracking=False\nwith_ts=False\nwith_video=True\nwith_videoio=True\nwith_videostab=True\nwith_viz=False\nwith_xfeatures2d=False\nwith_ximgproc=False\nwith_xobjdetect=False\nwith_xphoto=False",
+    "package_id": "d914171311d7039195cc0752d098fca2ca9640ec",
+    "prev": "0",
+    "context": "host"
+   },
+   "2": {
+    "ref": "Boost/1.75.0@camposs/stable",
+    "options": "fPIC=False\nheader_only=False\nmagic_autolink=False\nshared=True\nskip_lib_rename=True\nwithout_atomic=False\nwithout_chrono=False\nwithout_container=False\nwithout_context=False\nwithout_contract=False\nwithout_coroutine=False\nwithout_date_time=False\nwithout_exception=False\nwithout_fiber=True\nwithout_filesystem=False\nwithout_graph=False\nwithout_graph_parallel=False\nwithout_iostreams=False\nwithout_locale=False\nwithout_log=False\nwithout_math=False\nwithout_mpi=False\nwithout_program_options=False\nwithout_python=True\nwithout_random=False\nwithout_regex=False\nwithout_serialization=False\nwithout_stacktrace=False\nwithout_system=False\nwithout_test=False\nwithout_thread=False\nwithout_timer=False\nwithout_type_erasure=False\nwithout_wave=False\nzlib:shared=True",
+    "package_id": "53e0fb852468aac81e6dc041c140c093b6b6db53",
+    "prev": "0",
+    "requires": [
+     "3"
+    ],
+    "context": "host"
+   },
+   "3": {
+    "ref": "zlib/1.2.11@camposs/stable",
+    "options": "shared=True",
+    "package_id": "2af715f34a7c8c2aeae57b25be0a52c4110dc502",
+    "prev": "0",
+    "context": "host"
+   },
+   "4": {
+    "ref": "gtest/1.11.0",
+    "options": "build_gmock=True\nhide_symbols=False\nno_main=False\nshared=True",
+    "package_id": "334a7f6a896d477b1ad65981cfc1a3a10016c70b",
+    "prev": "0",
+    "context": "host"
+   }
+  },
+  "revisions_enabled": false
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=gcc\ncompiler.libcxx=libstdc++11\ncompiler.version=9\nos=Linux\nos_build=Linux\n[options]\n[build_requires]\n[env]\n"
+}

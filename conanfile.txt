@@ -1,0 +1,11 @@
+[requires]
+opencv/4.5.0@camposs/stable
+Boost/1.75.0@camposs/stable
+gtest/1.11.0
+[options]
+opencv:shared=True # false
+Boost:shared=True
+gtest:shared=True
+[generators]
+txt
+cmake
